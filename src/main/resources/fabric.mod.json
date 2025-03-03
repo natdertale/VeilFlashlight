@@ -8,8 +8,8 @@
 		"Natdertale"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/simple-flashlight",
+		"sources": "https://github.com/natdertale/VeilFlashlight"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/flash-lights/icon.png",
