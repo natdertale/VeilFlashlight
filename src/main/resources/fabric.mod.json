@@ -2,10 +2,10 @@
 	"schemaVersion": 1,
 	"id": "flash-lights",
 	"version": "${version}",
-	"name": "Flash Lights",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "FlashLight",
+	"description": "A simple Flashlight mod",
 	"authors": [
-		"Me!"
+		"Natdertale"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
