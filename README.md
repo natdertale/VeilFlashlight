@@ -1,3 +1,3 @@
 A simple flash light mod using Veil.
 
-sorry i'm too lazy to write anything here.
+I'm too lazy to actually write anything here.
