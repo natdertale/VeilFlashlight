@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static FlashLightItem FLASH_LIGHT = registerItem("flash_light", new FlashLightItem(new Item.Settings()));
+    public static FlashLightItem FLASH_LIGHT = registerItem("flashlight", new FlashLightItem(new Item.Settings()));
 
     private static <T extends Item> T registerItem(String name, T item) {
         return Registry.register(Registries.ITEM, Identifier.of(FlashLights.MOD_ID, name), item);

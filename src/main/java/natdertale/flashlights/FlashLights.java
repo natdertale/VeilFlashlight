@@ -1,15 +1,14 @@
 package natdertale.flashlights;
 
-import foundry.veil.api.client.render.VeilRenderSystem;
-import foundry.veil.api.client.render.light.AreaLight;
 import natdertale.flashlights.Item.ModItems;
+import natdertale.flashlights.component.ModComponents;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class FlashLights implements ModInitializer {
-	public static final String MOD_ID = "flash-lights";
+	public static final String MOD_ID = "flashlights";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -22,8 +21,8 @@ public class FlashLights implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.RegisterModItems();
+		ModComponents.registerDataComponentsTypes();
 
 
-		LOGGER.info("Hello Fabric world!");
 	}
 }
