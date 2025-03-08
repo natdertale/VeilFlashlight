@@ -1,7 +1,7 @@
 package natdertale.flashlights;
 
 
-import natdertale.flashlights.light.ModLight;
+import natdertale.flashlights.rendering.ModLight;
 import net.fabricmc.api.ClientModInitializer;
 
 import java.util.function.Supplier;
