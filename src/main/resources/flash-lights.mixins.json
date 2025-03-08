@@ -3,7 +3,8 @@
 	"package": "natdertale.flashlights.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "CraftingMixin",
+	  "AnvilMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

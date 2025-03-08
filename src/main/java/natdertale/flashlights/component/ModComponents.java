@@ -14,6 +14,7 @@ import java.util.function.UnaryOperator;
 
 public class ModComponents {
     public static final ComponentType<Boolean> IS_ON = register("is_on", booleanBuilder -> booleanBuilder.codec(Codec.BOOL));
+    public static final ComponentType<Integer> COLOR = register("color", booleanBuilder -> booleanBuilder.codec(Codec.INT));
 
     private static <T> ComponentType<T> register(
             String name, UnaryOperator<ComponentType.Builder<T>>
